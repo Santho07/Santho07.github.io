@@ -43,22 +43,22 @@ params:
   comments: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  profileMode:
-    enabled: true
-    title: 'Imam Hossain' # optional default will be site title
-    subtitle: 'Software Engineer, Welldev Bangladesh Ltd.'
-    imageUrl: 'content/about/images/profile.jpeg' # optional
-    imageTitle: 'Profile Picture' # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: Posts
-        url: '/posts'
-      - name: About
-        url: '/about'
-  # homeInfoParams:
-  #     Title: Hi there 👋
-  #     Content: Welcome to my blog
+  # profileMode:
+  #   enabled: true
+  #   title: 'Imam Hossain' # optional default will be site title
+  #   subtitle: 'Software Engineer, Welldev Bangladesh Ltd.'
+  #   imageUrl: 'content/about/images/profile.jpeg' # optional
+  #   imageTitle: 'Profile Picture' # optional
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+  #   buttons:
+  #     - name: Posts
+  #       url: '/posts'
+  #     - name: About
+  #       url: '/about'
+  homeInfoParams:
+      Title: Hi there 👋
+      Content: Welcome to my blog
   socialIcons: # optional
     - name: 'Stackoverflow'
       url: 'https://stackoverflow.com/users/14529242/imam'
