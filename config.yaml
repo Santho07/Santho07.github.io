@@ -1,10 +1,10 @@
 languageCode: 'en-us'
-baseUrl: ''
-title: 'Imam Hossain'
+baseUrl: 'https://santho07.github.io/'
+title: Imam's Blog 📝
 theme: 'PaperMod'
 paginate: 10
-# disqusShortname: imam07
-googleAnalytics: UA-123-45
+
+googleAnalytics: G-5P3WLHZ6F7
 enableRobotsTXT: true
 
 menu:
@@ -13,52 +13,49 @@ menu:
       name: Posts
       title: Posts
       url: /posts/
-      weight: 0
+      weight: 1
     - identifier: about
       name: About
       title: About
       url: /about/
 
 params:
-  author: 'Imam Hossain'
-  email: imam.swe@gmail.com # used for microformats
-  avatar: '/images/me.png' # used for microformats
-  description: ''
-  images:
-    - images/og-featured.png # relative path to "static" directory
-
-  dateFormat: '2006-01-02'
-  paginationSinglePost: true
-  style: 'dark'
-  readMore: false
-  # utteranc.es support
-  utterancesRepo: '' # mandatory
-  utterancesTheme: '' # optional
-  utterancesIssue: '' # optional
-  utterancesLabel: '' # optional
-  webmentions:
-    url: https://yourdomain.com/webemntions/receive
-    login: hugo-theme-anubis
-    pingback: true
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Imam's Blog 📝
+  description: 'Imam Hossain Blog'
+  keywords: [Blog, Portfolio, Imam]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: 'March 30, 2021'
+  defaultTheme: auto # dark, light
   comments: true
-  ShowCodeCopyButtons: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
   ShowPostNavLinks: true
-  # profileMode:
-  #   enabled: true
-  #   title: 'Imam Hossain' # optional default will be site title
-  #   subtitle: 'Software Engineer, Welldev Bangladesh Ltd.'
-  #   imageUrl: 'content/about/images/profile.jpeg' # optional
-  #   imageTitle: 'Profile Picture' # optional
-  #   imageWidth: 120 # custom size
-  #   imageHeight: 120 # custom size
-  #   buttons:
-  #     - name: Posts
-  #       url: '/posts'
-  #     - name: About
-  #       url: '/about'
-  homeInfoParams:
-      Title: Hi there 👋
-      Content: Welcome to my blog
+  # ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  profileMode:
+    enabled: true
+    title: 'Imam Hossain' # optional default will be site title
+    subtitle: >
+      Software Engineer, Welldev Bangladesh Ltd. <br>
+    imageUrl: 'https://media-exp1.licdn.com/dms/image/C5603AQHk61ii7ThbDQ/profile-displayphoto-shrink_800_800/0/1589738957963?e=1627516800&v=beta&t=03LGjNw6GC6WKtdsLEvXLTVcy9Y0bCKTPxVj95I76Rw' # optional
+    imageTitle: 'Imam.jpg' # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: '/posts'
+      - name: About
+        url: '/about'
+  # homeInfoParams:
+  #     Title: Imam Hossain
+  #     Content: >
+  #         Software engineer focused on Web and API development.
+  #         Have proficient skills in algorithms, data structure, and problem-solving.
+  #         Always enjoy exploring new technologies and meeting new people.
   socialIcons: # optional
     - name: 'Stackoverflow'
       url: 'https://stackoverflow.com/users/14529242/imam'
