@@ -25,7 +25,7 @@ params:
   description: 'Imam Hossain Blog'
   keywords: [Blog, Portfolio, Imam]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: 'March 30, 2021'
+  DateFormat: 'Jan 01, 2006'
   defaultTheme: auto # dark, light
   comments: true
 
