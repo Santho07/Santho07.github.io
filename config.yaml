@@ -1,5 +1,5 @@
 languageCode: 'en-us'
-baseUrl: 'https://santho07.github.io/'
+baseUrl: 'https://www.imamhossain.me/'
 title: Imam's Blog 📝
 theme: 'PaperMod'
 paginate: 10
@@ -34,10 +34,10 @@ params:
   ShowPostNavLinks: true
   # ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  disableSpecial1stPost: true
+  disableSpecial1stPost: false
   disableScrollToTop: false
   profileMode:
-    enabled: true
+    enabled: false
     title: 'Imam Hossain' # optional default will be site title
     subtitle: >
       Software Engineer, Welldev Bangladesh Ltd. <br>
@@ -51,6 +51,7 @@ params:
       - name: About
         url: '/about'
   # homeInfoParams:
+  #     enabled: false
   #     Title: Imam Hossain
   #     Content: >
   #         Software engineer focused on Web and API development.
